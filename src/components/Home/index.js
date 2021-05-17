@@ -56,7 +56,7 @@ class Home extends Component {
 				<div className="greetings bybyn">ᜃᜋᜓᜐ᜔ᜆ</div>
 				<h1 className="name gold">Sherly Jao</h1>
 				<p>
-					I am 17 years of age and am a student of STEM-Micron.
+					I am 17 years of age and am a student of STEM-Micron STEC.
 				</p>
 				<p>
 					I have a talent for creativity and I am quick to learn. I'm good at arts, and have a hidden gift for solving puzzles.
