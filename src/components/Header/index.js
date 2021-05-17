@@ -18,13 +18,13 @@ class Header extends Component {
 		const { selected, setRef, history, setMenuItem, onThemeChange, theme } = this.props;
 		
 		return <div className={ `Header ${ selected }-page` } ref={ setRef }>
-			<div
+			<div className= "bybyn"
 				onClick={ () => {
 					history.push('/');
 					setMenuItem('home');
 				} }
 				className="logo">
-				<strong title="Sim Jao">FirstName</strong>&nbsp;<span>LastName</span>
+				<strong title="Sherly Jao">ᜐ᜔ᜌᜒᜇ᜔ᜎᜒ</strong>&nbsp;<span>ᜑᜏ᜔</span>
 			</div>
 			<div id="header-hamburger"><span onClick={ this.toggleMenu }>☰</span></div>
 			<ul
