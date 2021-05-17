@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ccd1608d.chunk.css",
-    "main.js": "/static/js/main.c1c83485.chunk.js",
-    "main.js.map": "/static/js/main.c1c83485.chunk.js.map",
+    "main.js": "/static/js/main.79ea5755.chunk.js",
+    "main.js.map": "/static/js/main.79ea5755.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f11f518.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f11f518.js.map",
     "static/js/2.70a2132a.chunk.js": "/static/js/2.70a2132a.chunk.js",
@@ -18,13 +18,13 @@
     "static/media/header.scss": "/static/media/logo.e2a91469.svg",
     "static/media/magda.503582b0.png": "/static/media/magda.503582b0.png",
     "static/media/mediaCampaign.cf9f2f6c.jpg": "/static/media/mediaCampaign.cf9f2f6c.jpg",
-    "static/media/profile1.046e8fde.jpg": "/static/media/profile1.046e8fde.jpg",
-    "static/media/profile2.d780aeb3.jpg": "/static/media/profile2.d780aeb3.jpg",
-    "static/media/profile3.d3dc924a.png": "/static/media/profile3.d3dc924a.png",
-    "static/media/profile4.304bb226.png": "/static/media/profile4.304bb226.png",
-    "static/media/profile5.62feaa12.jpeg": "/static/media/profile5.62feaa12.jpeg",
-    "static/media/profile6.7a36b443.png": "/static/media/profile6.7a36b443.png",
-    "static/media/profile7.6be9f2fe.png": "/static/media/profile7.6be9f2fe.png",
+    "static/media/profile1.857dafc1.jpg": "/static/media/profile1.857dafc1.jpg",
+    "static/media/profile2.36083d10.jpg": "/static/media/profile2.36083d10.jpg",
+    "static/media/profile3.41b73f7c.png": "/static/media/profile3.41b73f7c.png",
+    "static/media/profile4.0200a3e1.png": "/static/media/profile4.0200a3e1.png",
+    "static/media/profile5.99ba75dc.jpeg": "/static/media/profile5.99ba75dc.jpeg",
+    "static/media/profile6.0ed5d3aa.png": "/static/media/profile6.0ed5d3aa.png",
+    "static/media/profile7.9ce0b1d8.png": "/static/media/profile7.9ce0b1d8.png",
     "static/media/projects.8ca1fe88.jpg": "/static/media/projects.8ca1fe88.jpg",
     "static/media/under-construction.506bfbfa.png": "/static/media/under-construction.506bfbfa.png"
   },
@@ -32,6 +32,6 @@
     "static/js/runtime-main.8f11f518.js",
     "static/js/2.70a2132a.chunk.js",
     "static/css/main.ccd1608d.chunk.css",
-    "static/js/main.c1c83485.chunk.js"
+    "static/js/main.79ea5755.chunk.js"
   ]
 }
