@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ccd1608d.chunk.css",
-    "main.js": "/static/js/main.dbd75e3b.chunk.js",
-    "main.js.map": "/static/js/main.dbd75e3b.chunk.js.map",
+    "main.js": "/static/js/main.ea7c86ec.chunk.js",
+    "main.js.map": "/static/js/main.ea7c86ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f11f518.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f11f518.js.map",
     "static/js/2.70a2132a.chunk.js": "/static/js/2.70a2132a.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/App.scss": "/static/media/Tahoma_Bold.9d58a73b.ttf",
     "static/media/about.scss": "/static/media/about.cbc647d1.jpeg",
     "static/media/communityProblem.4963203a.mp4": "/static/media/communityProblem.4963203a.mp4",
+    "static/media/ict.8104d91c.png": "/static/media/ict.8104d91c.png",
     "static/media/header.scss": "/static/media/logo.e2a91469.svg",
     "static/media/magda.503582b0.png": "/static/media/magda.503582b0.png",
     "static/media/mediaCampaign.cf9f2f6c.jpg": "/static/media/mediaCampaign.cf9f2f6c.jpg",
@@ -26,12 +27,13 @@
     "static/media/profile6.0ed5d3aa.png": "/static/media/profile6.0ed5d3aa.png",
     "static/media/profile7.9ce0b1d8.png": "/static/media/profile7.9ce0b1d8.png",
     "static/media/projects.8ca1fe88.jpg": "/static/media/projects.8ca1fe88.jpg",
-    "static/media/under-construction.506bfbfa.png": "/static/media/under-construction.506bfbfa.png"
+    "static/media/under-construction.506bfbfa.png": "/static/media/under-construction.506bfbfa.png",
+    "static/media/videoBlogICT.b87d64b2.mp4": "/static/media/videoBlogICT.b87d64b2.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.8f11f518.js",
     "static/js/2.70a2132a.chunk.js",
     "static/css/main.ccd1608d.chunk.css",
-    "static/js/main.dbd75e3b.chunk.js"
+    "static/js/main.ea7c86ec.chunk.js"
   ]
 }
