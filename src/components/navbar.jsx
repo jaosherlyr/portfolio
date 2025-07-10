@@ -6,7 +6,7 @@ function navbar() {
     return (
         <div className={styles.navbar}>
             <div>
-                <h3>Logo</h3>
+                <h2>Logo</h2>
             </div>
 
             <div>

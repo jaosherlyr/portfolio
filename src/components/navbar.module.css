@@ -1,7 +1,19 @@
 .navbar {
-    height: 8vh;
-    width: 100%;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0vh 7vh;
+    color: var(--color-black-base);
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 8vh;
+    color: var(--color-blaack-base);
+}
+
+.navbar a:hover {
+    color: var(--color-base);
+    transition: ease-in-out;
 }
