@@ -1,0 +1,35 @@
+@use '../variable.scss' as *;
+
+.navbar {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 7vh;
+    color: $black-base;
+
+    a, .themeIcon {
+        text-decoration: none;
+        margin-left: 8vh;
+        color: $black-base;
+    }
+
+    .themeIcon {
+        font-size: 30px;
+    }
+
+    a:hover, .themeIcon:hover {
+        color: $base;
+        transition: transform 0.2s ease-in-out;
+        transform: translateY(-2px);
+    }
+
+    &.dark {
+        color: $white-base;
+    }
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+}
