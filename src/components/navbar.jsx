@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { IoSunny } from "react-icons/io5";
+
 import styles from "./navbar.module.css";
 
 function navbar() {
@@ -13,6 +15,7 @@ function navbar() {
                 <Link to={"/"}>Home</Link>
                 <Link to={"/works"}>Works</Link>
                 <Link to={"/"}>Contact</Link>
+                <IoSunny />
             </div>
         </div>
     )
