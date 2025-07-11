@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { IoSunny } from "react-icons/io5";
-import { useTheme } from "../context/themeContext";
+import { useTheme } from "../context/ThemeContext";
 
 import styles from "./navbar.module.scss";
 
-function navbar() {
+function Navbar() {
     const { theme, toggleTheme } = useTheme();
 
     return (
@@ -25,4 +25,4 @@ function navbar() {
     )
 }
 
-export default navbar
+export default Navbar
