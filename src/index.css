@@ -1,9 +1,9 @@
 :root {
-  --color-white-base: #F1EDF5;
-  --color-secondary: #F8D079;
-  --color-lighter-base: #AB81CD;
-  --color-base: #654597;
-  --color-black-base: #150A25;
+  --white-base: #F1E7FA;
+  --secondary: #F8D079;
+  --lighter-base: #AB81CD;
+  --base: #654597;
+  --black-base: #200844;
   --font-primary: 'Mulish', sans-serif;
 }
 
@@ -15,5 +15,5 @@ body {
     rgba(248, 208, 121, 0.8),  /* #F8D079 at 80% opacity */
     rgba(101, 69, 151, 0.8)    /* #654597 at 80% opacity */
   );
-  color: var(--color-black-base);
+  color: var(--black-base);
 }
