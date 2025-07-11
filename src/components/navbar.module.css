@@ -11,9 +11,10 @@
     text-decoration: none;
     margin-left: 8vh;
     color: var(--color-blaack-base);
+    line-height: 2vh;
 }
 
 .navbar a:hover {
     color: var(--color-base);
-    transition: ease-in-out;
+    transition: ease-in-out 0.2s;
 }
