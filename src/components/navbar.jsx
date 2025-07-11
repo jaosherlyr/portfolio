@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import { IoSunny } from "react-icons/io5";
+import { IoSunny, IoMoon } from "react-icons/io5";
+
 import { useTheme } from "../context/ThemeContext";
 
 import styles from "./navbar.module.scss";
 
-function Navbar() {
+export default function Navbar() {
     const { theme, toggleTheme } = useTheme();
 
     return (
@@ -19,10 +20,13 @@ function Navbar() {
                     <Link to={"/works"}>Works</Link>
                     <Link to={"/"}>Contact</Link>
                 </div>
-                <IoSunny onClick={toggleTheme} className={styles.themeIcon} />
+                {theme === 'light' ? (
+                    <IoSunny onClick={toggleTheme} className={styles.themeIcon} />
+                ) : (
+                    <IoMoon onClick={toggleTheme} className={styles.themeIcon} />
+                )}
+
             </div>
         </div>
     )
 }
-
-export default Navbar
