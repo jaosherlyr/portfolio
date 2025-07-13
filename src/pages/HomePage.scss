@@ -1,6 +1,7 @@
 @use "../variable.scss" as *;
 
-.container {
+body {
+    .container {
     display: inline-flex;
     margin: 0 10vh;
     align-items: center;
@@ -32,13 +33,19 @@
         }
 
         .subtitle {
-            color: $base;
             letter-spacing: 0.7em;
             margin: 2vh 0;
+        
         }
 
         p {
             text-align: left;
+        }
+    }
+}
+    &.dark {
+        .subtitle {
+            color: $lighter-base;
         }
     }
 }
