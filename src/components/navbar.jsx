@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { IoSunny, IoMoon } from "react-icons/io5";
 import { useTheme } from "../context/ThemeContext";
 
@@ -18,9 +18,9 @@ export default function Navbar() {
 
             <div className={styles.tab}>
                 <div>
-                    <Link to={"/"}>Home</Link>
-                    <Link to={"/works"}>Works</Link>
-                    <Link to={"/"}>Contact</Link>
+                    <NavLink to="/" className={({ isActive }) => isActive ? styles.active : ''}>Home</NavLink>
+                    <NavLink to="/works" className={({ isActive }) => isActive ? styles.active : ''}>Works</NavLink>
+                    <a href="#contact">Contact</a>
                 </div>
                 {theme === 'light' ? (
                     <IoSunny onClick={toggleTheme} className={styles.themeIcon} />

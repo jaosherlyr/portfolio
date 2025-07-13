@@ -6,59 +6,87 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2vh;
-  color: $black-base;
-
-  a, .themeIcon {
-    text-decoration: none;
-    margin-left: 8vh;
-    color: $black-base;
-    display: inline-block;
-  }
-
-  a:hover, .themeIcon:hover {
-    color: $base;
-    transition: transform 0.2s ease-in-out;
-    transform: translateY(-2px);
-  }
-
-  .themeIcon {
-    width: 3vh;        
-    height: 3vh;      
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-  &.dark {
-    color: $white-base;
-
-    a, .themeIcon {
-        color: $white-base;
-    }
-
-    a:hover, .themeIcon:hover {
-        color: $lighter-base;
-    }
-  }
+  color: $base;
 
   .logo {
     display: inline-flex;
+    align-items: center;
+
+    img {
+      width: 6vh;
+      margin-right: 2vh;
+    }
+
+    p {
+      font-family: $font-secondary;
+      font-size: 3vh;
+      letter-spacing: 0.7em;
+      color: $black-base;
+    }
   }
 
-  img {
-    width: 6vh;
-    margin-right: 2vh;
+  .tab {
+    display: flex;
+    align-items: center;
+
+    a,
+    .themeIcon {
+      display: inline-block;
+      text-decoration: none;
+      margin-left: 8vh;
+      color: inherit;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .active {
+      color: $black-base;
+
+      &:hover {
+          color: $black-base;
+          transform: none;
+        }
+    }
+
+    a:hover,
+    .themeIcon:hover {
+      color: $secondary;
+      transform: translateY(-2px);
+    }
+
+    .themeIcon {
+      width: 3vh;
+      height: 3vh;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
   }
 
-  p {
-    font-family: $font-secondary;
-    letter-spacing: 0.7em;
-    font-size: 3vh;
-  }
-}
+  &.dark {
+    .logo p {
+      color: $white-base;
+    }
 
-.tab {
-  display: flex;
-  align-items: center;
+    .tab {
+      a,
+      .themeIcon {
+        color: $lighter-base;
+      }
+
+      .active {
+        color: $white-base;
+
+        &:hover {
+          color: $white-base;
+          transform: none;
+        }
+      }
+
+      a:hover,
+      .themeIcon:hover {
+        color: $secondary;
+      }
+    }
+  }
 }
