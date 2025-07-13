@@ -11,11 +11,11 @@ export default function Layout() {
   }, [theme]);
 
   return (
-    <div>
+    <>
       <Navbar />
-      <div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <Outlet />
       </div>
-    </div>
+    </>
   );
 }
