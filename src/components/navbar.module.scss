@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 7vh;
+  padding: 0 2vh;
   color: $black-base;
 
   a, .themeIcon {
@@ -40,6 +40,21 @@
     a:hover, .themeIcon:hover {
         color: $lighter-base;
     }
+  }
+
+  .logo {
+    display: inline-flex;
+  }
+
+  img {
+    width: 6vh;
+    margin-right: 2vh;
+  }
+
+  p {
+    font-family: $font-secondary;
+    letter-spacing: 0.7em;
+    font-size: 3vh;
   }
 }
 
