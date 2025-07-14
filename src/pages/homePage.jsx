@@ -1,4 +1,5 @@
 import "./HomePage.scss";
+import profile from "../assets/profile.jpg"
 import Button from "../components/Button.jsx";
 
 import { IoArrowForwardOutline } from "react-icons/io5";
@@ -15,7 +16,10 @@ function Home() {
 
   return (
     <div className="container">
-      <div className="placeholder"></div>
+      <div className="profileContainer">
+        <div className="placeholder"></div>
+        <img src={profile} alt="profile pic" />
+      </div>
 
       <div className="homedetails">
         <span className="title">Hi! I am <span className="name whitespace-nowrap">Sherly R. Jao</span></span>

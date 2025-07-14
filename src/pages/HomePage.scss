@@ -1,41 +1,76 @@
 @use "../variable.scss" as *;
 
 .container {
-  display: inline-flex;
-  margin: 10vh;
-  align-items: center;
+    display: inline-flex;
+    margin: 10vh;
+    align-items: center;
 
-  .placeholder {
-    height: 50vh;
-    width: 50vh;
-    aspect-ratio: 1 / 1;
-    background-color: $black-base;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 7vh;
+    .profileContainer {
+        align-items: center;
+    }
+
+    .profileContainer {
+  position: relative;
+  width: 50vh;
+  height: 50vh;
+  margin-right: 10vh;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vh;
+  height: 50vh;
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(45deg, $black-base, $lighter-base);
+  border-radius: 50%;
+  animation: rotate 10s linear infinite;
+  z-index: 1; 
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 2;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-  .homedetails {
-    display: grid;
-    text-align: center;
-    justify-items: center;
+    .homedetails {
+        display: grid;
+        text-align: center;
+        justify-items: center;
 
     .title {
-      font-size: 5vh;
-      margin: 0;
+        font-size: 5vh;
+        margin: 0;
 
-      .name {
-        font-family: $font-secondary;
-        color: $secondary;
-        letter-spacing: 0.2em;
-        margin-left: 20px;
-      }
+        .name {
+            font-family: $font-secondary;
+            color: $secondary;
+            letter-spacing: 0.2em;
+            margin-left: 20px;
+        }
     }
 
     .subtitle {
-      letter-spacing: 0.7em;
-      margin: 2vh 0;
-      color: $base;
+        letter-spacing: 0.7em;
+        margin: 2vh 0;
+        color: $base;
     }
 
     p {
@@ -46,5 +81,5 @@
 }
 
 body.dark .homedetails .subtitle {
-  color: $lighter-base;
+    color: $lighter-base;
 }
