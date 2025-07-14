@@ -1,51 +1,50 @@
 @use "../variable.scss" as *;
 
-body {
-    .container {
-    display: inline-flex;
-    margin: 0 10vh;
-    align-items: center;
+.container {
+  display: inline-flex;
+  margin: 10vh;
+  align-items: center;
 
-    .placeholder {
-        height: 50vh;
-        width: 50vh;
-        aspect-ratio: 1 / 1;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 7vh;
+  .placeholder {
+    height: 50vh;
+    width: 50vh;
+    aspect-ratio: 1 / 1;
+    background-color: $black-base;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7vh;
+  }
+
+  .homedetails {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+
+    .title {
+      font-size: 5vh;
+      margin: 0;
+
+      .name {
+        font-family: $font-secondary;
+        color: $secondary;
+        letter-spacing: 0.2em;
+        margin-left: 20px;
+      }
     }
 
-    .homedetails {
-        display: grid;
-        text-align: center;
-
-        .title {
-        font-size: 5vh;
-        word-spacing: 0.3em;
-        margin: 0;
-
-            .name {
-                font-family: $font-secondary;
-                color: $secondary;
-                letter-spacing: 0.3em;
-            }
-        }
-
-        .subtitle {
-            letter-spacing: 0.7em;
-            margin: 2vh 0;
-        
-        }
-
-        p {
-            text-align: left;
-        }
+    .subtitle {
+      letter-spacing: 0.7em;
+      margin: 2vh 0;
+      color: $base;
     }
+
+    p {
+        margin-bottom: 7vh;
+        line-height: 1.8;
+    }
+  }
 }
-    &.dark {
-        .subtitle {
-            color: $lighter-base;
-        }
-    }
+
+body.dark .homedetails .subtitle {
+  color: $lighter-base;
 }

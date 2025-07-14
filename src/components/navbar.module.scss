@@ -40,6 +40,7 @@
 
     .active {
       color: $black-base;
+      cursor: default;
 
       &:hover {
           color: $black-base;
