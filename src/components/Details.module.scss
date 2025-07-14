@@ -1,0 +1,34 @@
+@use '../variable.scss' as *;
+
+.details {
+        display: grid;
+        text-align: center;
+        justify-items: center;
+
+    .title {
+        font-size: 5vh;
+        margin: 0;
+
+        .name {
+            font-family: $font-secondary;
+            color: $secondary;
+            letter-spacing: 0.2em;
+            margin-left: 20px;
+        }
+    }
+
+    .subtitle {
+        letter-spacing: 0.7em;
+        margin: 2vh 0;
+        color: $base;
+
+        &.dark {
+            color: $lighter-base;
+        }
+    }
+
+    p {
+        margin-bottom: 7vh;
+        line-height: 1.8;
+    }
+}
